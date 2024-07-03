@@ -9,9 +9,11 @@
 <body>
     <header>
         <img src="images/astronaut.png" alt="Desenho de um astronauta">
-        <h1>Explore sem limites</h1>
-        <p>Porque o aprendizado é contínuo</p>
-        <img src="images/arrow.svg" alt="">
+        <div id="text-container">
+            <h1>Explore sem limites</h1>
+            <p>Porque o aprendizado é contínuo</p>
+            <img src="images/arrow.svg" alt="">
+        </div>
     </header>
     <section id="study-container">
         <div class="study">
@@ -34,18 +36,23 @@
         <form id="form">
             <fieldset>
                 <legend>Entre em contato</legend>
-                <div id="form-name-container">
-                    <label for="name"><img src="images/person.svg">Seu nome</label>
-                    <input type="text" id="name" required>
+                <div id="form-wrapper">
+                    <div class="form-input-container">
+                        <label for="name"><img src="images/person.svg">Seu nome:</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-input-container">
+                        <label for="email"><img src="images/at.svg">Email:</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div id="form-textarea-container">
+                        <textarea name="textarea" id="textarea" placeholder="Digite sua mensagem aqui..."></textarea>
+                    </div>
+                    <button type="submit">Enviar Mensagem</button>
                 </div>
-                <div id="form-email-container">
-                    <label for="email"><img src="images/at.svg">Email</label>
-                    <input type="email" id="email" required>
-                </div>
-                <textarea name="textarea" id="textarea" placeholder="Digite sua mensagem aqui..."></textarea>
-                <button type="submit">Enviar Mensagem</button>
             </fieldset>
         </form>
+        <img src="images/wallpaper.svg">
     </section>
     <footer>
         <p>© 2023 - Rocketseat Explorer</p>
