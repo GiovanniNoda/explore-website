@@ -183,5 +183,153 @@ footer {
 }
 
 @media (min-width: 1024px) {
-  
+    header {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        padding: 0 2rem 0 6rem;
+        justify-content: space-between;
+    }
+
+    header > img {
+        max-width: 56rem;
+        max-height: 58rem;
+        width: 100%;
+        margin-bottom: 12rem;
+    }
+
+    #text-container {
+        max-width: 42rem;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    #text-container h1 {
+        font-size: 4.2rem;
+    }
+
+    #text-container p {
+        font-size: 2.4rem;
+        margin-bottom: 18rem;
+    }
+
+    #study-container {
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+    .study {
+        width: 35.2rem;
+        height: 36rem;
+    }
+
+    .study h2 {
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+
+    .study p {
+        font-size: 1.6rem;
+    }
+
+    #form-container > img {
+        display: inline-block;
+    }
+
+    #form-container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+
+    #form {
+        width: 62rem;
+        padding-top: 9.5rem;
+    }
+
+    #form-container > img {
+        width: 56rem;
+        height: 52rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    header {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        padding: 0 3rem 10rem 11rem;
+        justify-content: space-between;
+    }
+
+    header > img {
+        max-width: 72rem;
+        max-height: 73rem;
+        width: 100%;
+    }
+
+    #text-container {
+        max-width: 56rem;
+        width: 100%;
+        flex: 1;
+        align-items: flex-start;
+        padding-top: 20rem;
+    }
+
+    #text-container h1 {
+        font-size: 5.8rem;
+    }
+
+    #text-container p {
+        font-size: 3.2rem;
+        margin-bottom: 18rem;
+    }
+
+    #study-container {
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+    .study {
+        width: 36.6rem;
+        height: 44.8rem;
+    }
+
+    .study img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .study h2 {
+        font-size: 3.6rem;
+        margin-top: 4rem;
+    }
+
+    .study p {
+        font-size: 1.9rem;
+    }
+
+    #form-container > img {
+        display: inline-block;
+    }
+
+    #form-container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+
+    #form {
+        width: 62rem;
+        padding-top: 9.5rem;
+    }
+
+    #form-container > img {
+        width: 64.4rem;
+        height: 61.2rem;
+    }
 }
