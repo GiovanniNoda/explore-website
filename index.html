@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Projeto Explore</title>
 </head>
 <body>
-    
+    <header>
+        <img src="images/astronaut.png" alt="Desenho de um astronauta">
+        <h1>Explore sem limites</h1>
+        <p>Porque o aprendizado é contínuo</p>
+        <img src="images/arrow.svg" alt="">
+    </header>
+    <section id="study-container">
+        <div class="study">
+            <img src="images/planet1.svg" alt="Desenho de um planeta amarelo">
+            <h2>Não pare nunca</h2>
+            <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
+        </div>
+        <div class="study">
+            <img src="images/planet2.svg" alt="Desenho de um planeta azul">
+            <h2>Só volta</h2>
+            <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
+        </div>
+        <div class="study">
+            <img src="images/planet3.svg" alt="Desenho de um planeta rosa">
+            <h2>Siga seu ritmo</h2>
+            <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
+        </div>
+    </section>
+    <section id="form-container">
+        <form id="form">
+            <fieldset>
+                <legend>Entre em contato</legend>
+                <div id="form-name-container">
+                    <label for="name"><img src="images/person.svg">Seu nome</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div id="form-email-container">
+                    <label for="email"><img src="images/at.svg">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <textarea name="textarea" id="textarea" placeholder="Digite sua mensagem aqui..."></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <p>© 2023 - Rocketseat Explorer</p>
+    </footer>
 </body>
 </html>
