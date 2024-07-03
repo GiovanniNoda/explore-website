@@ -72,6 +72,11 @@ header > img {
     padding: 2.6rem;
 }
 
+.study:hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
 .study h2 {
     margin-top: 2rem;
     font-size: 3rem;
@@ -332,4 +337,20 @@ footer {
         width: 64.4rem;
         height: 61.2rem;
     }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.study {
+    animation: appear .4s backwards;
+    animation-delay: var(--delay);
 }
