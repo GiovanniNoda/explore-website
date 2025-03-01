@@ -1,6 +1,5 @@
-# projeto-explorer
- Repositório do desafio do curso da Rocketseat
+# explore-website
 
- Este é um site feito por mim, foi utilizado apenas HTML5 e CSS3 para a construção. O layout foi disponibilizado através de um desafio do curso Explorer da Rocketseat.
+ Project created for learning purposes, used HTML5 and CSS3. 
 
- <a href="https://giovanninoda.github.io/projeto-explore/" target="_blank">Clique aqui para visitar o site!</a>
+ <a href="https://giovanninoda.github.io/explore-website/" target="_blank">Click here to access the website!</a>
